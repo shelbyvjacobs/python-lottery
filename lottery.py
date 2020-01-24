@@ -1,5 +1,3 @@
-# User input - pick 6 numbers
-# Generate 6 random numbers for the lottery
 # Compare user numbers to the lottery numbers
 # Calculate winnings based on number of matched numbers
 import random
@@ -16,7 +14,7 @@ collect_player_numbers()
 
 def generate_lottery_numbers():
     lottery_numbers_set = set()
-    for index in range(6):
+    while len(lottery_numbers_set) < 6:
         lottery_numbers_set.add(random.randint(0, 50))
     print("The lottery numbers are: " + str(lottery_numbers_set))
     return lottery_numbers_set
