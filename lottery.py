@@ -1,5 +1,3 @@
-# Compare user numbers to the lottery numbers
-# Calculate winnings based on number of matched numbers
 import random
 
 def collect_player_numbers():
@@ -21,6 +19,9 @@ def calculate_winnings():
     lottery_final_numbers = generate_lottery_numbers()
     print("The lottery numbers are: " + str(lottery_final_numbers))
     matched_numbers = lottery_final_numbers.intersection(player_final_numbers)
-    print("You guessed {} correctly! You won ${}!".format(matched_numbers, 100 ** len(matched_numbers)))
+    if len(matched_numbers) > 0:
+        print("You guessed {} correctly! You won ${}!".format(matched_numbers, 100 ** len(matched_numbers)))
+    else:
+        print("Sorry, you did not guess any of the lottery numbers.")
 
 calculate_winnings()
