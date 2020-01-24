@@ -20,5 +20,5 @@ A simple command line application created with Python.
 
 ### Contribution Guidelines
 If you would like to contribute code, identify bugs, or propose improvements, please fork this repository and submit a pull request with your suggestions. Below are some helpful links to help you get started:
-1. [Project's main repository](https://github.com/shelbyvjacobs/python-cli-app)
-2. [Project's issue tracker](https://github.com/shelbyvjacobs/python-cli-app/issues)
+1. [Project's main repository](https://github.com/shelbyvjacobs/python-lottery)
+2. [Project's issue tracker](https://github.com/shelbyvjacobs/python-lottery/issues)
