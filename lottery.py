@@ -21,6 +21,6 @@ def calculate_winnings():
     lottery_final_numbers = generate_lottery_numbers()
     print("The lottery numbers are: " + str(lottery_final_numbers))
     matched_numbers = lottery_final_numbers.intersection(player_final_numbers)
-    print("You won ${}!".format(100 ** len(matched_numbers)))
+    print("You guessed {} correctly! You won ${}!".format(matched_numbers, 100 ** len(matched_numbers)))
 
 calculate_winnings()
