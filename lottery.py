@@ -19,5 +19,6 @@ def generate_lottery_numbers():
     for index in range(6):
         lottery_numbers_set.add(random.randint(0, 50))
     print("The lottery numbers are: " + str(lottery_numbers_set))
+    return lottery_numbers_set
 
 generate_lottery_numbers()
